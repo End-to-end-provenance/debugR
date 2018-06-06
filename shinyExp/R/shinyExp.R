@@ -14,7 +14,7 @@ library(shiny)
 shinyExp <- function() {
   
   library(shiny)
-  library("devtools", lib.loc="~/R/win-library/3.4")
+  library("devtools")
   #setwd("~/R/")
   #library(RDataTracker)
   
