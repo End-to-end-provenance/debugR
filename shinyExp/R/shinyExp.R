@@ -18,12 +18,11 @@ shinyExp <- function() {
   #setwd("~/R/")
   #library(RDataTracker)
   
-  source("C:/Users/Nan/Desktop/MHC/now/IndeCS/RDataTracker/R/RDataTracker.R")
-  source("C:/Users/Nan/Desktop/MHC/now/IndeCS/RDataTracker/R/DDGHash.R")
-  source("C:/Users/Nan/Desktop/MHC/now/IndeCS/RDataTracker/R/DDGStatement.R")
-  source("C:/Users/Nan/Desktop/MHC/now/IndeCS/RDataTracker/R/OutputJSON.R")
-  source("C:/Users/Nan/Desktop/MHC/now/IndeCS/RDataTracker/R/retriveValue1.R")
-  
+  source("./RDataTracker_development/R/RDataTracker.R")
+  source("./RDataTracker_development/R/DDGHash.R")
+  source("./RDataTracker_development/R/DDGStatement.R")
+  source("./RDataTracker_development/R/OutputJSON.R")
+  source("./debugR/retriveValue1.R")
  
   # Define UI for data upload app ----
   ui <- fluidPage(
